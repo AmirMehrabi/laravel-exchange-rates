@@ -1,6 +1,6 @@
 <?php
 
-namespace AshAllenDesign\LaravelExchangeRates\Classes;
+namespace amoori\LaravelExchangeRates\Classes;
 
 class Currency
 {

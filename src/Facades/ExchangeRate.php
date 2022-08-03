@@ -1,6 +1,6 @@
 <?php
 
-namespace AshAllenDesign\LaravelExchangeRates\Facades;
+namespace amoori\LaravelExchangeRates\Facades;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Facade;
@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static float convertBetweenDateRange(int $value, string $from, string $to, Carbon $date, Carbon $endDate, array $conversions = [])
  * @method static self shouldBustCache(bool $bustCache = true)
  *
- * @see \AshAllenDesign\LaravelExchangeRates\Classes\ExchangeRate
+ * @see \amoori\LaravelExchangeRates\Classes\ExchangeRate
  */
 class ExchangeRate extends Facade
 {

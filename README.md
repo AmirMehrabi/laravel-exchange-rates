@@ -1,12 +1,12 @@
 <p align="center">
-<img src="https://ashallendesign.co.uk/images/custom/laravel-exchange-rates-logo.png" alt="Laravel Exchange Rates" width="600">
+<img src="https://amoori.co.uk/images/custom/laravel-exchange-rates-logo.png" alt="Laravel Exchange Rates" width="600">
 </p>
 
 <p align="center">
-<a href="https://packagist.org/packages/ashallendesign/laravel-exchange-rates"><img src="https://img.shields.io/packagist/v/ashallendesign/laravel-exchange-rates.svg?style=flat-square" alt="Latest Version on Packagist"></a>
+<a href="https://packagist.org/packages/amoori/laravel-exchange-rates"><img src="https://img.shields.io/packagist/v/amoori/laravel-exchange-rates.svg?style=flat-square" alt="Latest Version on Packagist"></a>
 <a href="https://travis-ci.org/ash-jc-allen/laravel-exchange-rates"><img src="https://img.shields.io/travis/ash-jc-allen/laravel-exchange-rates/master.svg?style=flat-square" alt="Build Status"></a>
-<a href="https://packagist.org/packages/ashallendesign/laravel-exchange-rates"><img src="https://img.shields.io/packagist/dt/ashallendesign/laravel-exchange-rates.svg?style=flat-square" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/ashallendesign/laravel-exchange-rates"><img src="https://img.shields.io/packagist/php-v/ashallendesign/laravel-exchange-rates?style=flat-square" alt="PHP from Packagist"></a>
+<a href="https://packagist.org/packages/amoori/laravel-exchange-rates"><img src="https://img.shields.io/packagist/dt/amoori/laravel-exchange-rates.svg?style=flat-square" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/amoori/laravel-exchange-rates"><img src="https://img.shields.io/packagist/php-v/amoori/laravel-exchange-rates?style=flat-square" alt="PHP from Packagist"></a>
 <a href="https://github.com/ash-jc-allen/short-url/blob/master/LICENSE"><img src="https://img.shields.io/github/license/ash-jc-allen/laravel-exchange-rates?style=flat-square" alt="GitHub license"></a>
 </p>
 
@@ -43,7 +43,7 @@ allow you to get the latest or historical exchange rates and convert monetary va
 You can install the package via Composer:
 
 ```bash
-composer require ashallendesign/laravel-exchange-rates
+composer require amoori/laravel-exchange-rates
 ```
 
 The package has been developed and tested to work with the following minimum requirements:
@@ -97,7 +97,7 @@ $exchangeRates->convert(100, 'GBP', 'EUR', Carbon::now()->subWeek(), Carbon::now
 ```
 
 ### Facade
-If you prefer to use facades in Laravel, you can choose to use the provided ```ExchangeRate ``` facade instead of instantiating the ``` AshAllenDesign\LaravelExchangeRates\Classes\ExchangeRate ```
+If you prefer to use facades in Laravel, you can choose to use the provided ```ExchangeRate ``` facade instead of instantiating the ``` amoori\LaravelExchangeRates\Classes\ExchangeRate ```
 class manually.
 
 The example below shows an example of how you could use the facade to get the available currencies:
@@ -124,7 +124,7 @@ This example shows how to convert 100 pence (£1) from Great British Pounds to E
     
     namespace App\Http\Controllers;
     
-    use AshAllenDesign\LaravelExchangeRates\Classes\ExchangeRate;
+    use amoori\LaravelExchangeRates\Classes\ExchangeRate;
     
     class TestController extends Controller
     {
@@ -148,7 +148,7 @@ method can be used. The example below shows how to ignore the cached value (if o
     
     namespace App\Http\Controllers;
     
-    use AshAllenDesign\LaravelExchangeRates\Classes\ExchangeRate;
+    use amoori\LaravelExchangeRates\Classes\ExchangeRate;
     
     class TestController extends Controller
     {
@@ -217,7 +217,7 @@ vendor/bin/phpunit
 
 ## Security
 
-If you find any security related issues, please contact me directly at [mail@ashallendesign.co.uk](mailto:mail@ashallendesign.co.uk) to report it.
+If you find any security related issues, please contact me directly at [mail@amoori.co.uk](mailto:mail@amoori.co.uk) to report it.
 
 ## Contribution
 
@@ -227,7 +227,7 @@ Note: A contribution guide will be added soon.
 
 ## Credits
 
-- [Ash Allen](https://ashallendesign.co.uk)
+- [Ash Allen](https://amoori.co.uk)
 - [Jess Pickup](https://jesspickup.co.uk) (Logo)
 - [All Contributors](https://github.com/ash-jc-allen/short-url/graphs/contributors)
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace AshAllenDesign\LaravelExchangeRates\Tests\Unit;
+namespace amoori\LaravelExchangeRates\Tests\Unit;
 
-use AshAllenDesign\LaravelExchangeRates\Facades\ExchangeRate;
-use AshAllenDesign\LaravelExchangeRates\Providers\ExchangeRatesProvider;
+use amoori\LaravelExchangeRates\Facades\ExchangeRate;
+use amoori\LaravelExchangeRates\Providers\ExchangeRatesProvider;
 use Illuminate\Foundation\Application;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 

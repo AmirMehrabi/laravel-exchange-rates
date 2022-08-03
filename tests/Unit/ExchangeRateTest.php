@@ -1,11 +1,11 @@
 <?php
 
-namespace AshAllenDesign\LaravelExchangeRates\Tests\Unit;
+namespace amoori\LaravelExchangeRates\Tests\Unit;
 
-use AshAllenDesign\LaravelExchangeRates\Classes\ExchangeRate;
-use AshAllenDesign\LaravelExchangeRates\Classes\RequestBuilder;
-use AshAllenDesign\LaravelExchangeRates\Exceptions\InvalidCurrencyException;
-use AshAllenDesign\LaravelExchangeRates\Exceptions\InvalidDateException;
+use amoori\LaravelExchangeRates\Classes\ExchangeRate;
+use amoori\LaravelExchangeRates\Classes\RequestBuilder;
+use amoori\LaravelExchangeRates\Exceptions\InvalidCurrencyException;
+use amoori\LaravelExchangeRates\Exceptions\InvalidDateException;
 use Illuminate\Support\Facades\Cache;
 use Mockery;
 

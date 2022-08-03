@@ -1,9 +1,9 @@
 <?php
 
-namespace AshAllenDesign\LaravelExchangeRates\Tests\Unit;
+namespace amoori\LaravelExchangeRates\Tests\Unit;
 
-use AshAllenDesign\LaravelExchangeRates\Classes\ExchangeRate;
-use AshAllenDesign\LaravelExchangeRates\Classes\RequestBuilder;
+use amoori\LaravelExchangeRates\Classes\ExchangeRate;
+use amoori\LaravelExchangeRates\Classes\RequestBuilder;
 use Illuminate\Support\Facades\Cache;
 use Mockery;
 

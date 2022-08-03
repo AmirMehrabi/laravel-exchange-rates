@@ -1,9 +1,9 @@
 <?php
 
-namespace AshAllenDesign\LaravelExchangeRates\Classes;
+namespace amoori\LaravelExchangeRates\Classes;
 
-use AshAllenDesign\LaravelExchangeRates\Exceptions\InvalidCurrencyException;
-use AshAllenDesign\LaravelExchangeRates\Exceptions\InvalidDateException;
+use amoori\LaravelExchangeRates\Exceptions\InvalidCurrencyException;
+use amoori\LaravelExchangeRates\Exceptions\InvalidDateException;
 use Carbon\Carbon;
 use Exception;
 use GuzzleHttp\Client;

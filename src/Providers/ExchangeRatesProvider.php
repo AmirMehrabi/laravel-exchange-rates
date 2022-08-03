@@ -1,8 +1,8 @@
 <?php
 
-namespace AshAllenDesign\LaravelExchangeRates\Providers;
+namespace amoori\LaravelExchangeRates\Providers;
 
-use AshAllenDesign\LaravelExchangeRates\Classes\ExchangeRate;
+use amoori\LaravelExchangeRates\Classes\ExchangeRate;
 use Illuminate\Support\ServiceProvider;
 
 class ExchangeRatesProvider extends ServiceProvider

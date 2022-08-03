@@ -1,6 +1,6 @@
 <?php
 
-namespace AshAllenDesign\LaravelExchangeRates\Exceptions;
+namespace amoori\LaravelExchangeRates\Exceptions;
 
 use Exception;
 

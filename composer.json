@@ -1,10 +1,10 @@
 {
-  "name": "ashallendesign/laravel-exchange-rates",
+  "name": "amoori/laravel-exchange-rates",
   "description": "A wrapper package for interacting with the exchangeratesapi.io API.",
   "type": "library",
   "homepage": "https://github.com/ash-jc-allen/laravel-exchange-rates",
   "keywords": [
-    "ashallendesign",
+    "amoori",
     "exchange-rate",
     "exchangeratesapi.io",
     "laravel-exchange-rates"
@@ -13,7 +13,7 @@
   "authors": [
     {
       "name": "Ash Allen",
-      "email": "mail@ashallendesign.co.uk"
+      "email": "mail@amoori.co.uk"
     }
   ],
   "require": {
@@ -31,21 +31,21 @@
   },
   "autoload": {
     "psr-4": {
-      "AshAllenDesign\\LaravelExchangeRates\\": "src/"
+      "amoori\\LaravelExchangeRates\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "AshAllenDesign\\LaravelExchangeRates\\Tests\\": "tests/"
+      "amoori\\LaravelExchangeRates\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "AshAllenDesign\\LaravelExchangeRates\\Providers\\ExchangeRatesProvider"
+        "amoori\\LaravelExchangeRates\\Providers\\ExchangeRatesProvider"
       ],
       "aliases": {
-        "ExchangeRate": "AshAllenDesign\\LaravelExchangeRates\\Facades\\ExchangeRate"
+        "ExchangeRate": "amoori\\LaravelExchangeRates\\Facades\\ExchangeRate"
       }
     }
   }
